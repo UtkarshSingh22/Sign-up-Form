@@ -39,18 +39,23 @@ body{
     display: flex;
     flex-direction: column;
     padding: 3vh;
-    padding-right: 20vh;
+    
 }
 .text{
     padding-top: 12vh;
     font-size: 3vh;
+    padding-right: 10vw;
 }
 .formIntro{
     font-size: 3vh;
 }
 .inpName, .inpEmandPh, .inpPw{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     padding: 3vh;
+    padding-right: 20vw;
+}
+.first, .sec, .third, .fourth, .fifth, .sixth{
+    display: flex;
+    flex-direction: column;
 }
