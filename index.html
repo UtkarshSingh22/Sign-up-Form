@@ -25,26 +25,35 @@
             <p class="formIntro">Lets's do this!</p>
             <form action="" method="post">
                 <div class="inpName">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="First-Name" placeholder="Utkarsh" required>
-
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="Last-Name" id="lastName" placeholder="Singh">
-                </div>
+                    <div class="first">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="First-Name" placeholder="Utkarsh" required>
+                    </div>
+                    <div class="sec">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="Last-Name" id="lastName" placeholder="Singh">
+                    </div>
+                    </div>
                 <div class="inpEmandPh">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="E-mail" id="email" placeholder="abc@xyz.com" required>
-
-                    <label for="phoneNum">PHONE NUMBER</label>
-                    <input type="text" name="Phone-Number" id="phoneNum" placeholder="9876543210" pattern="\d{10}" required>
-                </div>
+                    <div class="third">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="E-mail" id="email" placeholder="abc@xyz.com" required>
+                    </div>
+                    <div class="fourth">
+                        <label for="phoneNum">PHONE NUMBER</label>
+                        <input type="text" name="Phone-Number" id="phoneNum" placeholder="9876543210" pattern="\d{10}" required>
+                    </div>
+                    </div>
                 <div class="inpPw">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="Password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
-
-                    <label for="confPassword">CONFIRM PASSWORD</label>
-                    <input type="password" name="Confirm-Password" id="confPassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
-                </div>
+                    <div class="fifth">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="Password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    <div class="sixth">
+                        <label for="confPassword">CONFIRM PASSWORD</label>
+                        <input type="password" name="Confirm-Password" id="confPassword" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    </div>
                 <button type="submit">Create Account</button>
                 <div class="login">Already have an account? <button class="logBtn">Log in</button></div>
             </form>
