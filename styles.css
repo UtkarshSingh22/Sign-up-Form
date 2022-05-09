@@ -98,12 +98,13 @@ label{
 a{
     color: white;
 }
-#password, #confPassword:invalid{
+#password:invalid, #confPassword:invalid{
     border: 2px solid red;
 }
 input:focus{
     outline: none;
     border: 2px solid rgb(48, 133, 231);
+    background-color: #E5E7EB;
 }
 .submitBtn:hover{
     box-shadow: 1px 1px 8px 5px rgb(52, 185, 209);
