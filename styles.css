@@ -5,19 +5,18 @@ body{
 }
 .pic{
     height: 100vh;
-    width: 45vw;
+    width: 40vw;
 }
 
 .transLogo{
-    width: 45vw;
     position: absolute;
     display: flex;
+    width: 40vw;
     top: 25vh;
-    right: 60vw;
     justify-content: center;
-    background-color:rgb(162, 153, 221);
+    background-color:rgb(201, 195, 233);
     opacity: 0.8;
-    border: 3px solid black;
+
 }
 .logo{
     height: 12vh;
@@ -35,4 +34,23 @@ body{
     width: 40vw;
     justify-content: center;
     font-size: 2vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    padding-right: 20vh;
+}
+.text{
+    padding-top: 12vh;
+    font-size: 3vh;
+}
+.formIntro{
+    font-size: 3vh;
+}
+.inpName, .inpEmandPh, .inpPw{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
 }
