@@ -5,15 +5,19 @@ body{
 }
 .pic{
     height: 100vh;
-    width: 40vw;
+    width: 45vw;
 }
 
 .transLogo{
-    width: 40vw;
+    width: 45vw;
     position: absolute;
     display: flex;
     top: 25vh;
+    right: 60vw;
     justify-content: center;
+    background-color:rgb(162, 153, 221);
+    opacity: 0.8;
+    border: 3px solid black;
 }
 .logo{
     height: 12vh;
