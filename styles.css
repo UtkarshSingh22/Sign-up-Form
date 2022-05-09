@@ -2,6 +2,7 @@ body{
     margin: 0%;
     height: 100vh;
     display: flex;
+    font-family: 'Neucha', cursive;
 }
 .pic{
     height: 100vh;
