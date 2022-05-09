@@ -5,16 +5,28 @@ body{
 }
 .pic{
     height: 100vh;
-    width: 45vw;
+    width: 40vw;
 }
+
 .transLogo{
+    width: 40vw;
     position: absolute;
     display: flex;
     top: 25vh;
-    border: 3px solid black;
     justify-content: center;
+
+}
+.logo{
+    height: 12vh;
+    width: auto;
+}
+.name{
+    font-size: 3rem;
+
+
 }
 .credit{
     position: absolute;
     display: flex;
+
 }
