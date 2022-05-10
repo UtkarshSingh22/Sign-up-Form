@@ -2,7 +2,7 @@ body{
     margin: 0%;
     height: 100vh;
     display: flex;
-    font-family: 'Neucha', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .pic{
     height: 100vh;
